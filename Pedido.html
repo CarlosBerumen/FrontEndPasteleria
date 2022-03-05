@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viweport" content="width=device, initial-scale=1.0">
+    <title>Hacer Pedido</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <img src="./Assets/img/Logo de Aurora Bakery.png" alt="Logo de Aurora Bakery" width="200px">
+    <h1>Aquí se hace el pedido</h1>
+    
+    <form action="pedido.js">
+        <label for="Nombre">¿Cuál es tu nombre?</label><br>
+        <input type="text" name="Nombre" placeholder="Nombre">
+
+        <br></br>
+
+        <label for="telefono">¿Cuál es tu número teléfonico?</label><br>
+        <input type="number" name="number" placeholder="Número teléfonico">
+
+        <br></br>
+
+        <label for="Correo">¿Cuál es tu correo electrónico?</label><br>
+        <input type="text" name="correo" placeholder="Correo electrónico">
+
+        <br></br>
+
+        <label for="Descripcion">Descripción general del pastel</label><br>
+        <input type="text" name="Descripcion" placeholder="Descripción general">
+
+
+    <br></br>
+
+    
+    <h2>Selecciona sabor/es de tu pastel</h2><br>
+    <input type="checkbox" id="sabor1" name="sabor1" value="Vainilla">
+    <label for="sabor1">Vainilla</label><br>
+    <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+    <label for="sabor2">Chocolate</label><br>
+    <input type="checkbox" id="sabor3" name="sabor3" value="Fresa">
+    <label for="sabor3">Fresa</label><br>
+
+    <br></br>
+  
+    <h2>Selecciona adorno/os de tu pastel</h2><br>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Frase">
+    <label for="adorno1">Frase</label>
+    <label for="adorno">¿Qué frase llevará tu pastel?</label><br>
+        <input type="text" name="adorno1" placeholder="Frase"><br>
+    <input type="checkbox" id="adorno2" name="adorno2" value="Imagen">
+    <label for="adorno2">Imagen</label>
+    <label for="adorno2">¿Qué Imágen o dibujo llevará tu pastel?</label><br>
+        <input type="text" name="adorno2" placeholder="Imágen o dibujo"><br>
+
+    <br></br>
+
+    <input type="reset">
+    <a href="./PedidoRealizado.html"> 
+        <input type="button" value="Terminar Pedido"> 
+        </a>
+
+</body>
+</html>
